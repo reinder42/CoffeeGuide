@@ -1,0 +1,6 @@
+framework module QuadratTouch {
+  umbrella header "QuadratTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

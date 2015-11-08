@@ -1,0 +1,1 @@
+../../../QuadratTouch/Source/QuadratTouch/QuadratTouch.h
