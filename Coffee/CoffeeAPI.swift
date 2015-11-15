@@ -41,6 +41,8 @@ class CoffeeAPI
             // Provide the user location and the hard-coded Foursquare category ID for "Coffeeshops"
             var parameters = location.parameters();
             parameters += [Parameter.categoryId: "4bf58dd8d48988d1e0931735"];
+            parameters += [Parameter.radius: "2000"];
+            parameters += [Parameter.limit: "50"];
             
             // Start a "search", i.e. an async call to Foursquare that should return venue data
             let searchTask = session.venues.search(parameters)
