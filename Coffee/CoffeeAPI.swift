@@ -26,6 +26,8 @@ class CoffeeAPI
     init()
     {
         // Initialize the Foursquare client
+        // Note: It's not recommended to put API secrets into public GitHub code. You can imagine the secrets below don't work, so get your own!
+        
         let client = Client(clientID: "X4I3CFADAN4MEB2TEVYUZSQ4SHSTXSZL34VNP4CJHSJGLKPV", clientSecret: "EDOLJK3AGCOQDRKVT2GK5E4GECU42UJUCGGWLTUFNEF1ZXHB", redirectURL: "");
         
         let configuration = Configuration(client:client);
